@@ -14,4 +14,4 @@ texts = r.text.replace('\xa0'*4, '\n\n')
 print(texts)
 with open('xiaoshuo.txt', 'w') as f:
     f.write(texts)
-f.close()
+
